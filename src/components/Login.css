@@ -1,0 +1,81 @@
+body{
+  /* background-color: #202020; */
+  background-color: #0F1A43;
+  /* background: url('Screenshot\ 2023-11-05\ 192917_cleanup.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 60%; */
+}
+.Login{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    align-items: center;
+    height:100vh;
+    align-items: center;
+}
+
+.formBox{
+  align-self: center
+
+}
+
+
+.login_heading{display: flex;
+   
+  position: absolute;
+  height: 65%;
+
+}
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    width: 60%;
+    border-radius: 10px;
+    height: 80vh;
+    background-color: #D3D3D3;
+    padding: 8px;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.emaillabel{
+  color: #fff;
+}
+.pass{
+    background-color: #292F45;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.new-user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width:800px){
+  .Login{
+    display: flex;
+    justify-content: center;
+  }
+  .LoginForm{
+    width: 90%;
+  }
+}
+.welcome{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  
+}
+.logpage{
+  display: flex;
+}

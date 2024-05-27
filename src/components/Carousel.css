@@ -1,0 +1,16 @@
+
+#carouselBody{
+
+width: 90%;
+
+}
+#carouselContainer{
+
+    display: flex;
+   
+   height: 500px;
+
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

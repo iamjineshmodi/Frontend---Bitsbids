@@ -1,0 +1,49 @@
+.more-details{
+    height: 100vh;
+    background-color: #252525;
+}
+.item-card-2{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: rgb(147, 147, 147);
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    /* flex-direction: column; */
+    height: auto;
+    background-color: #393939;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(220, 219, 219, 0.2), 0 6px 20px 0 rgba(209, 208, 208, 0.19);
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */ /* Also needed for space (tweak if needed) */
+  }
+  .heading{
+    align-self: flex-start;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .item-desc{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+.bid-button{
+    background-color: red;
+}

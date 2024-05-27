@@ -1,0 +1,57 @@
+Main{
+    background: url('images/ChatBg.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.info{
+    color: white;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+}
+.carinfo{
+    width: fit-content;
+    max-width: 60%;
+    flex-direction: column;
+    height: auto;
+    background-color: #373737;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width:800px){
+    .carinfo{
+        max-width: 100%;
+    }
+}
+.dh{
+    display: flex;
+}
+.dhname{
+    color: white;
+    font-size: 20px;
+}
+.label{
+    color: white;
+}
+.messageBox{
+    width: 90%;
+}
+.send{
+    margin-left: 5%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.userprofile{
+    justify-items: end;
+    align-items: end;
+}
+.message-timestamp {
+    font-size: 0.75em;
+    text-align: right;
+  }
